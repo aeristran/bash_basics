@@ -22,3 +22,26 @@ done
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
 # using loops and if statements.
+
+echo ""
+echo "Let's sing a 7 days Christmas song"
+
+for day in 1 2 3 4 5 6 7; do
+echo "on the $day day of Christmas, my true love gave to me:"
+
+if [ $day -eq 1 ]; then
+echo "a partridge in a pear tree"
+
+elif [ $day -eq 2 ]; then
+echo "Two turtle doves"
+echo "And a partridge in a pear tree"
+
+elif [ $day -eq 3 ]; then
+echo "Three French hens"
+echo "Two turtle doves"
+echo "And a partridge in a pear tree"
+
+else
+echo "$day wonderful gifts!"
+fi
+done
