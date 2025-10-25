@@ -24,6 +24,7 @@ done
 # using loops and if statements.
 
 echo ""
+
 echo "Let's sing a 7 days Christmas song"
 
 for day in 1 2 3 4 5 6 7; do
